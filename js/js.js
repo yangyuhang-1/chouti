@@ -8,7 +8,7 @@ for (var i=0;i<title.length;i++){
 	title[i].onclick=function(){
 		n=this.index;// 点击的序号记为n
 		for(var i=0;i<ctbox.length;i++){
-			if(i<n){
+			if(i<=n){
 				// ctbox序号小于等于n的时候ctbox的left值计算公式为序号*titleWidth
 				ctbox[i].style.top=i*titleWidth+'px';
 			}else{
