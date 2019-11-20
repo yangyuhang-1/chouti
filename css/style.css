@@ -1,0 +1,53 @@
+.ctboxs{
+	width: 590px;
+	height: 710px;
+	position: relative;
+	overflow: hidden;
+	border: 5px solid orange;
+	margin: 0 auto;
+}
+.ctboxs .ctbox{
+	width: 590px;
+	height: 470px;
+	/*display: flex;*/
+	position: absolute;
+	top: 0;
+	transition: 1s;
+}
+.ctboxs .ct1{
+	top: 0;
+}
+.ctboxs .ct2{
+	top: 534px;
+}
+.ctboxs .ct3{
+	top: 594px;
+}
+.ctboxs .ct4{
+	top: 654px;
+}
+.ctboxs .ctbox .title{
+	color: white;
+	height: 64px;
+	font-size: 22px;
+	text-align: center;
+	/*vertical-align: middle;*/
+	line-height: 64px;
+	/*padding: 19px 200px 19px 250px;*/
+	cursor: pointer;
+}
+.title{
+
+}
+.ctboxs .ct1 .title{
+	background: #6666FF;
+}
+.ctboxs .ct2 .title{
+	background: #FF6666;
+}
+.ctboxs .ct3 .title{
+	background: #6600CC;
+}
+.ctboxs .ct4 .title{
+	background: #FFCCFF;
+}
